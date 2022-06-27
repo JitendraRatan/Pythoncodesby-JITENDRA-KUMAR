@@ -1,0 +1,6 @@
+#Take 2 digit number from user and find the sum of its digits
+number=int(input("Enter a two digit number"))
+unit_digit=number%10
+tens_digit=number//10
+sum=unit_digit+tens_digit
+print("The sum of the two digits of the number is", sum)
