@@ -1,0 +1,12 @@
+#Take input  from user
+number=int(input("Enter a three digit number"))
+#hundreds_digit
+a=number//100
+#last two digits
+b=numer%100
+#unit's digit
+c=b%10
+#ten's digit
+d=b//10
+sum=a+d+c
+print("The sum of three digits of the entered number is=",sum)
