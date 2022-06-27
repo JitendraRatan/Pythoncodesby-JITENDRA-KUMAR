@@ -1,0 +1,11 @@
+a=int(input("Enter 5 digit number"))
+b=a//10000#1
+c=a%10000
+d=c//1000#2
+e=c%1000
+f=e//100#3
+g=e%100
+h=g//10#4
+i=g%10
+sum=b+d+f+h+i
+print(sum)
